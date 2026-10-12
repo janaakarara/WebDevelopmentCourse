@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4eee1;
+  color: #2b2723;
+  font-family: 'Lora', Georgia, serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Single Vintage Card Frame */
+.card {
+  max-width: 720px;
+  width: 100%;
+  background: #fdfbf7;
+  border: 3px double #3a342c;
+  padding: 40px 44px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.top-meta {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #6b6357;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Photo Frame */
+.photo-frame {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 16px auto;
+  padding: 6px;
+  border: 1px solid #d4cbb8;
+  background: #eae2cf;
+}
+
+.photo-frame img {
+  width: 130px;
+  height: 155px;
+  object-fit: cover;
+  display: block;
+  filter: sepia(25%) contrast(105%);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.85rem;
+  color: #8b2b18;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #d4cbb8;
+  margin: 24px 0;
+}
+
+.bio {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #3b352e;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.tags {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.8rem;
+  color: #554e45;
+  text-align: center;
+}
+
+/* Section Formatting */
+.section {
+  text-align: left;
+  margin: 8px 0;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #2b2723;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px dashed #d4cbb8;
+  padding-bottom: 4px;
+}
+
+.entry {
+  margin-bottom: 18px;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.entry-role {
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: #2b2723;
+}
+
+.entry-date {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.78rem;
+  color: #8b2b18;
+}
+
+.entry-company,
+.entry-tech {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.8rem;
+  color: #6b6357;
+  margin-top: 2px;
+  margin-bottom: 6px;
+}
+
+.entry-details {
+  list-style-type: disc;
+  padding-left: 18px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: #3b352e;
+}
+
+.entry-details li {
+  margin-bottom: 4px;
+}
+
+/* Links */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.links a {
+  font-family: 'Special Elite', monospace;
+  font-size: 0.82rem;
+  text-decoration: none;
+  color: #2b2723;
+  border: 1px solid #3a342c;
+  padding: 7px 18px;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+
+.links a:hover {
+  background: #8b2b18;
+  color: #fff;
+  border-color: #8b2b18;
+}
