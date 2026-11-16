@@ -1,0 +1,65 @@
+.home-page h1 {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #6b7280;
+}
+
+.card {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.count {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.text-input {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.text-input:focus {
+  outline: 2px solid #4f46e5;
+  border-color: transparent;
+}
+
+.light-card {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
+
+.light-card.light-on {
+  background-color: #fef9c3;
+  color: #1f2937;
+}
+
+.loading {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.error {
+  color: #dc2626;
+}
