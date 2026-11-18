@@ -1,0 +1,23 @@
+.star-rating {
+  display: flex;
+  gap: 0.15rem;
+}
+
+.star-rating__star {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  filter: grayscale(1);
+  opacity: 0.35;
+  transition: transform 0.15s, opacity 0.15s, filter 0.15s;
+}
+
+.star-rating__star.is-active {
+  filter: none;
+  opacity: 1;
+}
+
+.star-rating__star:hover {
+  transform: scale(1.25);
+}
